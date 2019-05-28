@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.Menus.Interfaces", "InterfaceImplementation\Ex04.Menus.Interfaces.csproj", "{280E61B4-4609-41A1-86CC-06F3CB261274}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.Menus.Test", "Ex04.Menus.Test\Ex04.Menus.Test.csproj", "{117D11B9-1B5B-4D5B-8E52-D994C724AEAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.Menus.Delegates", "Ex04.Menus.Delegates\Ex04.Menus.Delegates.csproj", "{BE227141-776A-4ACE-A26F-1DDAD13B245C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.Menus.Interfaces", "Ex04.Menus.Interfaces\Ex04.Menus.Interfaces.csproj", "{280E61B4-4609-41A1-86CC-06F3CB261274}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{280E61B4-4609-41A1-86CC-06F3CB261274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{280E61B4-4609-41A1-86CC-06F3CB261274}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{280E61B4-4609-41A1-86CC-06F3CB261274}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{280E61B4-4609-41A1-86CC-06F3CB261274}.Release|Any CPU.Build.0 = Release|Any CPU
 		{117D11B9-1B5B-4D5B-8E52-D994C724AEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{117D11B9-1B5B-4D5B-8E52-D994C724AEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{117D11B9-1B5B-4D5B-8E52-D994C724AEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{BE227141-776A-4ACE-A26F-1DDAD13B245C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE227141-776A-4ACE-A26F-1DDAD13B245C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE227141-776A-4ACE-A26F-1DDAD13B245C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280E61B4-4609-41A1-86CC-06F3CB261274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280E61B4-4609-41A1-86CC-06F3CB261274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280E61B4-4609-41A1-86CC-06F3CB261274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280E61B4-4609-41A1-86CC-06F3CB261274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

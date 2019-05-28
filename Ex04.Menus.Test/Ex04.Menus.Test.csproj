@@ -51,7 +51,7 @@
       <Project>{be227141-776a-4ace-a26f-1ddad13b245c}</Project>
       <Name>Ex04.Menus.Delegates</Name>
     </ProjectReference>
-    <ProjectReference Include="..\InterfaceImplementation\Ex04.Menus.Interfaces.csproj">
+    <ProjectReference Include="..\Ex04.Menus.Interfaces\Ex04.Menus.Interfaces.csproj">
       <Project>{280e61b4-4609-41a1-86cc-06f3cb261274}</Project>
       <Name>Ex04.Menus.Interfaces</Name>
     </ProjectReference>

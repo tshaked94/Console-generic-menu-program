@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{280E61B4-4609-41A1-86CC-06F3CB261274}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>InterfaceImplementation</RootNamespace>
-    <AssemblyName>InterfaceImplementation</AssemblyName>
+    <RootNamespace>Ex04.Menus.Interfaces</RootNamespace>
+    <AssemblyName>Ex04.Menus.Interfaces</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
