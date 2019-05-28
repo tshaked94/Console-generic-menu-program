@@ -19,11 +19,11 @@ namespace Ex04.Menus.Test
             Console.WriteLine(message);
         }
 
-        private int countDigitsInSentence(string sentence)
+        private int countDigitsInSentence(string i_Sentence)
         {
             int counter = 0;
 
-            foreach(char ch in sentence)
+            foreach(char ch in i_Sentence)
             {
                 if(char.IsDigit(ch))
                 {
