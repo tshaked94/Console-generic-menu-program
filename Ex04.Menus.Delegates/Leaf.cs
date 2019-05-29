@@ -14,7 +14,6 @@ namespace Ex04.Menus.Delegates
             m_Parent = i_Parent;
         }
 
-  
         public override void Print()
         {
             string backOrExit, backOrExitStringFormat;

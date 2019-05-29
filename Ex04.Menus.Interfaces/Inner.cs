@@ -14,6 +14,7 @@ namespace Ex04.Menus.Interfaces
             m_Parent = i_Parent; 
             m_Level = m_Parent == null ? 0 : m_Parent.Level + 1;
         }
+
         public Dictionary<int, MenuItem> Children
         {
             get

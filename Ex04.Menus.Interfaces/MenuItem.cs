@@ -53,10 +53,12 @@ namespace Ex04.Menus.Interfaces
         }
 
         public abstract void Print();
+
         public void printTitle()
         {
             Console.WriteLine(Title);
         }
+
         public void printLevel()
         {
             string levelString;

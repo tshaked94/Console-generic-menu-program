@@ -27,6 +27,7 @@ namespace Ex04.Menus.Interfaces
                 m_ClickObserver = value;
             }
         }
+
         public override void Print()
         {
             string backOrExit, backOrExitStringFormat;

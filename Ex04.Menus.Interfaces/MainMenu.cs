@@ -6,7 +6,7 @@ namespace Ex04.Menus.Interfaces
 {
     public class MainMenu
     {
-        MenuItem m_CurrentItem = new Inner("Main Menu", null);
+        private MenuItem m_CurrentItem = new Inner("Main Menu", null);
 
         public MainMenu()
         {
@@ -107,7 +107,7 @@ namespace Ex04.Menus.Interfaces
             // At this stage the input is already validated.
             bool continueMenu = true;
 
-            if(i_UserChoice == 0 && m_CurrentItem.Level ==0)
+            if(i_UserChoice == 0 && m_CurrentItem.Level == 0)
             {
                 continueMenu = false;
             }
@@ -117,7 +117,7 @@ namespace Ex04.Menus.Interfaces
             }
             else if((m_CurrentItem as Inner).Children[i_UserChoice] is Leaf)
             {
-                (((m_CurrentItem as Inner).Children[i_UserChoice])as Leaf).OnClickObserver();
+                ((m_CurrentItem as Inner).Children[i_UserChoice] as Leaf).OnClickObserver();
             }
             else
             {

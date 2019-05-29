@@ -5,7 +5,7 @@ using Ex04.Menus.Delegates;
 
 namespace Ex04.Menus.Test
 {
-    class DelegatesTest
+    public class DelegatesTest
     {
         private MainMenu m_MainMenu = new MainMenu();
 
@@ -22,8 +22,6 @@ namespace Ex04.Menus.Test
             Inner VersionAndDigitsItem = new Inner("Version and Digits", m_MainMenu.CurrentItem);
             Leaf CountDigitsItem = new Leaf("Count Digits", VersionAndDigitsItem);
             Leaf ShowVersionItem = new Leaf("Show Version", VersionAndDigitsItem);
-
-
 
             ShowDateItem.m_ReportClickDelegates += ShowDate;
             ShowTimeItem.m_ReportClickDelegates += ShowTime;
@@ -45,7 +43,6 @@ namespace Ex04.Menus.Test
             Console.WriteLine(currentDate);
         }
 
-
         public void ShowTime(string i_String)
         {
             string currentTime;
@@ -53,10 +50,12 @@ namespace Ex04.Menus.Test
             currentTime = DateTime.Now.ToString("HH:mm:ss");
             Console.WriteLine(currentTime);
         }
+
         public void ShowVersion(string i_String)
         {
             Console.WriteLine("Version: 19.2.4.32");
         }
+
         public void CountDigits(string i_String)
         {
             string sentence, message;
@@ -68,6 +67,7 @@ namespace Ex04.Menus.Test
             message = string.Format("The amount of digits in the sentence is: {0}", amountOfDigits);
             Console.WriteLine(message);
         }
+
         private int countDigitsInSentence(string i_Sentence)
         {
             int counter = 0;

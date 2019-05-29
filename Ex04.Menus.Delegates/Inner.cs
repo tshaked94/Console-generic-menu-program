@@ -11,9 +11,10 @@ namespace Ex04.Menus.Delegates
         public Inner(string i_Title, MenuItem i_Parent)
         {
             m_Title = i_Title;
-            m_Parent = i_Parent; 
+            m_Parent = i_Parent;
             m_Level = m_Parent == null ? 0 : m_Parent.Level + 1;
         }
+
         public Dictionary<int, MenuItem> Children
         {
             get
